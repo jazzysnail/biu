@@ -1,0 +1,30 @@
+{
+  "name": "hexo-theme-biu",
+  "version": "1.0.0",
+  "description": "A hexo theme inspired by vuejs.org",
+  "main": "index.js",
+  "scripts": {
+    "sass": "gulp sass"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jazzysnail/hexo-theme-biu"
+  },
+  "keywords": [
+    "hexo",
+    "theme",
+    "biu"
+  ],
+  "author": "leon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jazzysnail/hexo-theme-biu/issues"
+  },
+  "homepage": "https://github.com/jazzysnail/hexo-theme-biu#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.0.2",
+    "gulp-sass": "^2.0.4",
+    "gulp-sourcemaps": "^1.6.0"
+  }
+}
