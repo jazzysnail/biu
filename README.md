@@ -13,9 +13,9 @@ git clone https://github.com/jazzysnail/hexo-theme-biu.git
 
 修改hexo根目录下 `_config.yml` 的 `theme` 属性配置为 `biu`:
 
-```yaml
+``` yaml
 theme: biu
-
+```
 
 ## 更新
 
