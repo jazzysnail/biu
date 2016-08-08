@@ -12,7 +12,7 @@ git clone https://github.com/jazzysnail/hexo-theme-biu.git
 ##  使用 Usage
 修改hexo根目录下 `_config.yml` 的 `theme` 属性配置为 `biu`:
 
-open up `_config.yml` in hexo root directory and set `theme` to `biu`:
+open up `_config.yml` in hexo root directory and set `theme` to `'biu'`:
 
 ``` yaml
 theme: biu
