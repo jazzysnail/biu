@@ -27,4 +27,5 @@ git pull
 ## License
 
 [MIT](https://opensource.org/licenses/MIT)
+
 Copyright (c) 2013-2016 Evan You
