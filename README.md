@@ -24,9 +24,12 @@ theme: biu
 cd themes/biu
 git pull
 ```
+##  文档 Docs
+后期将会加入
+
+Late will be added
+
 
 ##  版权 License
 
 [MIT](https://opensource.org/licenses/MIT)
-
-Copyright (c) 2013-2016 Evan You
