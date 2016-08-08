@@ -1,4 +1,4 @@
-##  安装 Install
+##  安装 Installation
 
 ``` bash
 hexo init <folder>
