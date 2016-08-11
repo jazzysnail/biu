@@ -1,8 +1,8 @@
 // variable
-$hue:#3d85bf;
+@hue:#3d85bf;
 
 // mixin
-@mixin btn {
+.biu-btn {
     position:relative;
     top: -4px;
     right: 4px;
@@ -17,12 +17,11 @@ $hue:#3d85bf;
     box-shadow: 4px 4px 0 #607D8B;
     outline: none;
     transition: all .15s linear;
-}
-
-@mixin btn-active {
-    box-shadow: none;
-    top: 0px;
-    right: 0px;
+    &:active {
+        box-shadow: none;
+        top: 0px;
+        right: 0px;
+    }
 }
 
 
@@ -31,7 +30,7 @@ $hue:#3d85bf;
 // default
 ::selection {
     color: #FFFFFF;
-    background-color: $hue;
+    background-color: @hue;
 }
 
 html, body {
@@ -67,7 +66,7 @@ a, a:active {
 a.nav-list-link.active,
 a.nav-list-link:hover,
 a.post-title-link:hover {
-    border-bottom: 2px solid $hue;
+    border-bottom: 2px solid @hue;
 }
 
 hr {

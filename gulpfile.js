@@ -1,17 +1,18 @@
 var gulp = require('gulp');
-var sass = require('gulp-sass');
+// var sass = require('gulp-sass');
+var less = require('gulp-less');
 var autoprefixer = require('gulp-autoprefixer');
 
-// 一次性编译 Sass 
-gulp.task('sass', function() {
-    return gulp.src('./source/scss/*.scss')
-        .pipe(sass({outputStyle: 'compressed'}))
+// 一次性编译 Sass
+gulp.task('less', function() {
+    return gulp.src('./source/less/*.less')
+        .pipe(less({outputStyle: 'compressed'}))
         .pipe(autoprefixer())
         .pipe(gulp.dest('./source/css'));
 });
 
 // 实时编译
-gulp.task('default', ['sass'], function() {
-    gulp.watch('./source/scss/_partial/*.scss', ['sass']);
-    gulp.watch('./source/scss/*.scss', ['sass']);
+gulp.task('liveless', ['less'], function() {
+    gulp.watch('./source/less/_partial/*.less', ['less']);
+    gulp.watch('./source/less/*.less', ['less']);
 });

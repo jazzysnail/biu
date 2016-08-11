@@ -2,9 +2,10 @@
   "name": "hexo-theme-biu",
   "version": "1.0.0",
   "description": "A hexo theme inspired by vuejs.org",
-  "main": "index.js",
+  "main": "gulpfile.js",
   "scripts": {
-    "sass": "gulp sass"
+    "less": "gulp less",
+    "liveless": "gulp liveless"
   },
   "repository": {
     "type": "git",
@@ -24,7 +25,7 @@
   "devDependencies": {
     "gulp": "^3.9.0",
     "gulp-autoprefixer": "^3.0.2",
-    "gulp-sass": "^2.0.4",
+    "gulp-less": "^3.1.0",
     "gulp-sourcemaps": "^1.6.0"
   }
 }
