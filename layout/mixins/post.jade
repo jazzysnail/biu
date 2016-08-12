@@ -3,7 +3,7 @@ mixin postInfo(item)
         != full_date(item.date, 'll')
         if item.translation && (is_home() || is_post())
             a.post-from(href=item.translation target="_blank" title=item.translation) Translation
-    if item.tags && (is_home() || is_post())
+    if item.tags.length != 0 && (is_home() || is_post())
         .tagcloud
             span.before tags:
             span.tags
