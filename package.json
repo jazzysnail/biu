@@ -21,7 +21,7 @@
   "bugs": {
     "url": "https://github.com/jazzysnail/biu/issues"
   },
-  "homepage": "https://github.com/jazzysnail/biu#readme",
+  "homepage": "https://github.com/jazzysnail/biu/readme",
   "devDependencies": {
     "gulp": "^3.9.0",
     "gulp-autoprefixer": "^3.0.2",

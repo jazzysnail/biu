@@ -9,7 +9,7 @@ logo: /favicon.png
 
 # Comment
 # e.g disqus:
-disqus:
+disqus: # [your disqus ID]
 duoshuo: # [your duoshuo ID]
 
 # Analytics
