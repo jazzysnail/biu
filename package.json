@@ -1,7 +1,7 @@
 {
   "name": "biu",
   "version": "1.0.0",
-  "description": "A hexo theme inspired by vuejs.org",
+  "description": "A hexo theme for my blog",
   "main": "gulpfile.js",
   "scripts": {
     "less": "gulp less",
