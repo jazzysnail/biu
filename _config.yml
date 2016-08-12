@@ -1,8 +1,8 @@
 menu:
     Blog: /
     Archive: /archives/
-    GitHub: https://github.com/jazzysnail
-    Workshop: /Workshop
+    GitHub: https://github.com/[your github ID]
+    # Workshop: [your workshop address]
 
 favicon: /favicon.png
 logo: /favicon.png
