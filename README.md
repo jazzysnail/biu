@@ -6,7 +6,7 @@ cd <folder>
 npm install
 npm install --save hexo-renderer-jade hexo-generator-feed hexo-generator-sitemap hexo-browsersync hexo-generator-archive
 cd themes
-git clone https://github.com/jazzysnail/hexo-theme-biu.git
+git clone https://github.com/jazzysnail/biu.git
 ```
 
 ##  使用 Usage
