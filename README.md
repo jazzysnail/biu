@@ -1,4 +1,4 @@
-## hexo-theme-biu
+# hexo-theme-biu
 
 ##  安装 Installation
 
