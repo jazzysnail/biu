@@ -1,3 +1,5 @@
+# hexo-theme-biu
+
 ##  安装 Installation
 
 ``` bash
