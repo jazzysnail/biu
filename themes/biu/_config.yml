@@ -5,7 +5,7 @@ menu:
     Workshop: # [your workshop address]
     # add more...
 favicon: /favicon.png
-logo: /favicon.png
+logo: /imgs/logo.png
 
 # Comment
 # e.g disqus:
@@ -30,4 +30,4 @@ startyear: 2016
 # Font CDN
 #true : use google fonts api, not stable for chinese visitor sometimes, caused by force majeure factor
 #false: use useso fonts api instead of google's, great response speed for chinese visitor
-googlefonts: true
+googlefonts: false
