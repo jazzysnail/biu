@@ -1,38 +1,59 @@
 ---
-title: Hello World
+title: Get started
 ---
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
 
-## Quick Start
-
-### Create a new post
+##  安装 Installation
 
 ``` bash
-$ hexo new "My New Post"
+hexo init <folder>
+cd <folder>
+npm install
+npm install --save hexo-renderer-jade hexo-generator-feed hexo-generator-sitemap hexo-browsersync hexo-generator-archive hexo-renderer-less
+cd themes
+git clone https://github.com/jazzysnail/biu.git
 ```
 
-More info: [Writing](https://hexo.io/docs/writing.html)
+###  使用 Usage
+修改hexo根目录下 `_config.yml` 的 `theme` 属性配置为 `biu`:
 
-### Run server
+open up `_config.yml` in hexo root directory and set `theme` to `'biu'`:
+
+``` yaml
+theme: biu
+```
+
+##  更新 Update
 
 ``` bash
-$ hexo server
+cd themes/biu
+git pull
 ```
+##  文档 Docs
+后期将会加入
 
-More info: [Server](https://hexo.io/docs/server.html)
+Late will be added
 
-### Generate static files
 
-``` bash
-$ hexo generate
-```
+##  版权 License
 
-More info: [Generating](https://hexo.io/docs/generating.html)
+The MIT License ([MIT](https://opensource.org/licenses/MIT))
 
-### Deploy to remote sites
+Copyright (c) 2016 leon
 
-``` bash
-$ hexo deploy
-```
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-More info: [Deployment](https://hexo.io/docs/deployment.html)
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
