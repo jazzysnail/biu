@@ -16,7 +16,7 @@ duoshuo: # [your duoshuo ID]
 # render less
 less:
   paths:
-  	- /source/less
+    - /source/less
   compress: true
 
 
