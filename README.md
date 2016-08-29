@@ -4,7 +4,7 @@
 hexo init <folder>
 cd <folder>
 npm install
-npm install --save hexo-renderer-jade hexo-generator-feed hexo-generator-sitemap hexo-browsersync hexo-generator-archive
+npm install --save hexo-renderer-jade hexo-generator-feed hexo-generator-sitemap hexo-browsersync hexo-generator-archive hexo-renderer-less
 cd themes
 git clone https://github.com/jazzysnail/biu.git
 ```

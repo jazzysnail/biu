@@ -1,7 +1,7 @@
 menu:
     Blog: /
     Archive: /archives/
-    GitHub: https://github.com/[your github ID]
+    GitHub: https://github.com/# [your github ID]
     Workshop: # [your workshop address]
     # add more...
 favicon: /favicon.png
@@ -11,6 +11,14 @@ logo: /favicon.png
 # e.g disqus:
 disqus: # [your disqus ID]
 duoshuo: # [your duoshuo ID]
+
+## Develop
+# render less
+less:
+  paths:
+  	- /source/less
+  compress: true
+
 
 # Analytics
 # google-analytics:
