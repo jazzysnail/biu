@@ -1,3 +1,6 @@
+## hexo-theme-biu
+[![Build Status](https://travis-ci.org/jazzysnail/biu.svg?branch=master)](https://travis-ci.org/jazzysnail/biu)
+
 ##  安装 Installation
 
 ``` bash
