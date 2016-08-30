@@ -1,10 +1,12 @@
 var headroom = new Headroom(document.getElementById('header'), {
-  "tolerance": 10,
-  "offset": 0,
-  "classes": {
-    "pinned": "slide-up",
-    "unpinned": "slide-down"
+  tolerance: 10,
+  offset: 500,
+  classes: {
+  	initial : "animated",
+    pinned: "slide-up",
+    unpinned: "slide-down"
   }
 });
 headroom.init();
-headroom.destroy();
+// to destroy
+// headroom.destroy();

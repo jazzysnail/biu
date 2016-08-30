@@ -3,19 +3,18 @@ html(lang=config.language)
   head
     include head
   body
-    #header(class=['animated'])
+    #header
       .wrap
         header
           a.logo-link(href=url_for())
             img(src=theme.logo)
           include nav
-    script(src=url_for("js/headeroom.js"))
-    script(src=url_for("js/script.js"))
+      script(src=url_for("js/headeroom.js"))
+      script(src=url_for("js/script.js"))
     .wrap
       section.container
         block container
       footer
         block pagination
         block copyright
-      link(rel="stylesheet", href=url_for("style/duoshuo.css"))
     include scripts
